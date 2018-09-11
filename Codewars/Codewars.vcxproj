@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Age.cpp" />
+    <ClCompile Include="FakeBinary.cpp" />
+    <ClCompile Include="ScreenLockingPatterns.cpp" />
+    <ClCompile Include="DeleteOccurrences.cpp" />
+    <ClCompile Include="AnagramsDetection.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="BattleshipFieldValidator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

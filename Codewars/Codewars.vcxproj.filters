@@ -13,5 +13,49 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\ScreenLockingPatterns">
+      <UniqueIdentifier>{db4b2165-b61f-4a7f-ac30-4e7c4fa16a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DeleteOccurrences">
+      <UniqueIdentifier>{52860099-bf27-4d7c-833d-71fb844bfec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AnagramsDetection">
+      <UniqueIdentifier>{9fd0c013-1edf-4f8f-925c-8d6d9db20dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Order">
+      <UniqueIdentifier>{6f025e99-4dc1-4930-a67e-74a18616c1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FakeBinary">
+      <UniqueIdentifier>{48bf18b0-57ed-49e5-beb3-a17b429ab0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Age">
+      <UniqueIdentifier>{9ce6ec39-84a3-4773-aade-f60a8254cc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BattleshipFieldValidator">
+      <UniqueIdentifier>{700d5bbb-cf7b-4ea4-a47a-b21cef2395ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeleteOccurrences.cpp">
+      <Filter>Source Files\DeleteOccurrences</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenLockingPatterns.cpp">
+      <Filter>Source Files\ScreenLockingPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="AnagramsDetection.cpp">
+      <Filter>Source Files\AnagramsDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeBinary.cpp">
+      <Filter>Source Files\FakeBinary</Filter>
+    </ClCompile>
+    <ClCompile Include="Age.cpp">
+      <Filter>Source Files\Age</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleshipFieldValidator.cpp">
+      <Filter>Source Files\BattleshipFieldValidator</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
