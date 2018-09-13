@@ -34,6 +34,9 @@
     <Filter Include="Source Files\BattleshipFieldValidator">
       <UniqueIdentifier>{700d5bbb-cf7b-4ea4-a47a-b21cef2395ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\EvaluateMathematicalExpression">
+      <UniqueIdentifier>{d35a16f8-0753-4215-8dd6-5cbbcd1d3dd4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DeleteOccurrences.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="BattleshipFieldValidator.cpp">
       <Filter>Source Files\BattleshipFieldValidator</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluateMathematicalExpression.cpp">
+      <Filter>Source Files\EvaluateMathematicalExpression</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

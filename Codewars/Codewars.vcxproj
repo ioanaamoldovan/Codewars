@@ -76,7 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <FloatingPointModel>Precise</FloatingPointModel>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -122,6 +126,7 @@
     <ClCompile Include="AnagramsDetection.cpp" />
     <ClCompile Include="Order.cpp" />
     <ClCompile Include="BattleshipFieldValidator.cpp" />
+    <ClCompile Include="EvaluateMathematicalExpression.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
