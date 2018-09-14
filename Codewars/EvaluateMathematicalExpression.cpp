@@ -270,17 +270,15 @@ double calc(string expression)
 	Node *tree = et.createExpressionTree(postfixExpr);
 
 	double result = et.evaluateExpressionTree(tree);
-
 	return result;
 }
 
-int main()
+/*int main()
 {
-	//cout << "Result: " << calc("-1 + -2 * -(3 - 4 / 5)") << endl;
-	//cout << "Result: " << calc("3 + 4 * 2 / (1 - 5)") << endl;
-	//cout << "Result: " << calc("(2 / (1 + 5.23) * 4) - -6") << endl;
-	cout.precision(20);
-	cout << "Result: " << calc("86 + -56 * -22 / -73 * -96 - 48 - 5 * 25") << endl;
+	cout << "Result: " << calc("-1 + -2 * -(3 - 4 / 5)") << endl;
+	cout << "Result: " << calc("3 + 4 * 2 / (1 - 5)") << endl;
+	cout << "Result: " << calc("(2 / (1 + 5.23) * 4) - -6") << endl;
+
 	cout << "Result: " << calc("1 + 1") << endl;
 	cout << "Result: " << calc("8/16") << endl;
 	cout << "Result: " << calc("3 -(-1)") << endl;
@@ -291,4 +289,4 @@ int main()
 	cout << "Result: " << calc("-7 * -(6 / 3)") << endl;
 
 	return 0;
-}
+}*/
